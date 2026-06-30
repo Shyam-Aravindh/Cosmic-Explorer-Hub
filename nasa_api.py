@@ -37,4 +37,3 @@ class SpaceData:
         return None
 
 ast = SpaceData("mD1yPXVeO5M0d8zWJMpkWmi0ugsOBVDqAihArUsR")
-# Add this temporary test at the very bottom of nasa_api.py
