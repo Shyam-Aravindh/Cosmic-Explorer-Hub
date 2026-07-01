@@ -1,4 +1,5 @@
 import requests
+import streamlit as st
 from datetime import datetime
 
 class SpaceData:
@@ -35,5 +36,5 @@ class SpaceData:
         if response.status_code == 200:
             return response.json()
         return None
-
-ast = SpaceData("mD1yPXVeO5M0d8zWJMpkWmi0ugsOBVDqAihArUsR")
+secure_key = st.secrets.get("NASA_API_KEY", "DEMO_KEY")
+ast = SpaceData(secure_key)
