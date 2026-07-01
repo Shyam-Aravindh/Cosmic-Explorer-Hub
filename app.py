@@ -114,7 +114,7 @@ with tab3:
     if user_query:
         search_results = search_nasa_archive(user_query)
         if search_results and 'collection' in search_results and 'items' in search_results['collection']:
-            records = search_results['collection']['items'][:3]
+            records = search_results['collection']['items']
 
             if not records:
                 st.warning("No media results matched your search term. Try another keywords!")
