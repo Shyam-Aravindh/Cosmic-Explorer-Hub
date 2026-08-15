@@ -1,6 +1,8 @@
 # 🚀 Cosmic Explorer Hub
 
-**Cosmic Explorer Hub** is a Python web dashboard built with **Streamlit** that connects to NASA's public APIs to deliver real-time space data and stunning astronomical media in a clean, interactive interface.**.
+**Cosmic Explorer Hub** is a Python web dashboard built with **Streamlit** that connects to NASA's public APIs to deliver real-time space data and stunning astronomical media in a clean, interactive interface.
+
+**.
 
 ---
 
